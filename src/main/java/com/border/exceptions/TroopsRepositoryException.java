@@ -8,7 +8,6 @@ public class TroopsRepositoryException extends Exception {
         super(message);
     }
 
-
     public TroopsRepositoryException(String message, Throwable cause) {
         super(message, cause);
     }
