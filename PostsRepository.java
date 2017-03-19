@@ -17,6 +17,7 @@ public class PostsRepository {
         Class.forName("com.mysql.jdbc.Driver");
         return DriverManager.getConnection("jdbc:mysql://localhost:3306/BorderGuardService", "root", "root");
     }
+
     public List<Posts> getAllPosts() throws ClassNotFoundException,SQLException{
         Connection con = null;
         List<Posts> allPosts = new ArrayList<>();
