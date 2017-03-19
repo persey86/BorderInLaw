@@ -16,6 +16,7 @@ public class ShowAllTroops implements Action {
     @Override
     public String execute(HttpServletRequest request, HttpServletResponse response) throws Exception {
 
+
         TroopsRepository troopsRepository = new TroopsRepository();
         List<Troops> allTroops = troopsRepository.getAllTroops();
 
