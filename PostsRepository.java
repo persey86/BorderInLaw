@@ -27,6 +27,7 @@ public class PostsRepository {
             ResultSet resultSet = pstm.executeQuery();
             while (resultSet.next()){
                 Posts posts = new Posts();
+
 //                posts.setId("id");
 //                posts.setNameOfPost("nameOfpost");
 //                posts.setPostHead("postHead");

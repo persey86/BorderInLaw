@@ -13,8 +13,6 @@ import java.util.List;
  */
 public class TroopsRepository {
 
-
-
     public List<Troops> getAllTroops() throws TroopsRepositoryException {
         List<Troops> troops = new ArrayList<Troops>();
         Connection con = null;
@@ -35,6 +33,5 @@ public class TroopsRepository {
         }
         return troops;
     }
-
 
 }
