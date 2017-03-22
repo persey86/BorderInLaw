@@ -33,5 +33,4 @@ public class TroopsRepository {
         }
         return troops;
     }
-
 }
