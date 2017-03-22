@@ -29,6 +29,7 @@ public class PostsRepository {
                 Posts posts = new Posts();
 
 
+
 //                posts.setId("id");
 //                posts.setNameOfPost("nameOfpost");
 //                posts.setPostHead("postHead");
